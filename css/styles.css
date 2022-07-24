@@ -4,3 +4,44 @@
 
 /* HEADER SECTION */
 
+.header {
+    height: 45px;
+    width: 100%;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+}
+
+.icon {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icon > a:visited {
+    color: #fff;
+}
+
+.icon > a > i {
+    font-size: 20px;
+}
+
+.logo > span {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 2px;
+    vertical-align: top;
+}
+
+.youtube-icon {
+    margin-top: 4px;
+    margin-left: 15px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
