@@ -1,1 +1,118 @@
 /* HEADER SECTION */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.menu-icon > img {
+  height: 35px;
+  width: 25px;
+}
+
+.youtube-logo {
+  height: 20px;
+  margin-left: 16px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  margin: 0 10.5rem 0 6rem;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 35px;
+  outline: none;
+  border: none;
+  background: #eee;
+  height: 43px;
+}
+
+.search-input::placeholder {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-btn {
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  background: #eee;
+  margin-left: -55px;
+  cursor: pointer;
+}
+
+.search-btn > img {
+  height: 30px;
+}
+
+.mic-btn {
+  margin-left: -10rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: #eee;
+  display: flex;
+  cursor: pointer;
+}
+
+.mic-btn > img {
+  width: 18px;
+  height: 27px;
+  padding: 6px;
+}
+
+.search-bar > .form {
+  display: flex;
+}
+
+.menu-icons {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-icons > a {
+  padding: 0 15px;
+}
+
+.menu-icons > a > img {
+  height: 30px;
+}
+
+.menu-channel-icon > img {
+  height: 36px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.video-box-container {
+  grid-area: 1 / 1 / 6 / 4;
+}
+
+.categories-section {
+  grid-area: 1 / 4 / 2 / 6;
+  background-color: #27ce06;
+}
+
+.videos-section {
+  grid-area: 2 / 4 / 6 / 6;
+  background-color: #24e9e9;
+}
