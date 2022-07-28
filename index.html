@@ -10,7 +10,10 @@
       sizes="32x32"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Youtube Clone by Javivy</title>
     <script
       src="https://kit.fontawesome.com/b1c6f28251.js"
@@ -23,34 +26,56 @@
     <header class="header">
       <div class="start">
         <a href="#" class="menu-icon">
-          <img src="icons/menu-icon.svg" alt="Menu Icon">
+          <img src="icons/menu-icon.svg" alt="Menu Icon" />
         </a>
         <a href="#">
-          <img src="images/youtube-logo.png" alt="Youtube Logo" class="youtube-logo" title="Youtube Home">
+          <img
+            src="images/youtube-logo.png"
+            alt="Youtube Logo"
+            class="youtube-logo"
+            title="Youtube Home"
+          />
         </a>
       </div>
-        <div class="search-bar">
-          <form action="" class="search-bar form">
-            <input type="search" class="search-input" placeholder="Search" aria-label="Search">
-            <button type="submit" class="search-btn">
-              <img src="icons/search-icon.svg" title="Search">
-            </button>
-          </form>
-          <button class="mic-btn">
-            <img src="icons/mic-icon.svg" title="Search with your voice">
+      <div class="search-bar">
+        <form action="" class="search-bar form">
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button type="submit" class="search-btn">
+            <img src="icons/search-icon.svg" title="Search" />
           </button>
-        </div>
-        <div class="menu-icons">
-          <a href="#">
-            <img src="icons/create-video-icon.svg" alt="Create Video" title="Create">
-          </a>
-          <a href="#">
-            <img src="icons/notification-icon.svg" alt="Notifications" title="Notifications">
-          </a>
-          <a href="#" class="menu-channel-icon">
-            <img src="icons/profile-picture.png" alt="Your Channel" title="Your Channel">
-          </a>
-        </div>
+        </form>
+        <button class="mic-btn">
+          <img src="icons/mic-icon.svg" title="Search with your voice" />
+        </button>
+      </div>
+      <div class="menu-icons">
+        <a href="#">
+          <img
+            src="icons/create-video-icon.svg"
+            alt="Create Video"
+            title="Create"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="icons/notification-icon.svg"
+            alt="Notifications"
+            title="Notifications"
+          />
+        </a>
+        <a href="#" class="menu-channel-icon">
+          <img
+            src="icons/profile-picture.png"
+            alt="Your Channel"
+            title="Your Channel"
+          />
+        </a>
+      </div>
     </header>
 
     <!-- VIDEOS SECTION  -->
@@ -58,46 +83,66 @@
     <div class="container">
       <div class="video-box-container">
         <div class="video-player">
-          <iframe width="680" height="380" src="https://www.youtube.com/embed/lhOsEAoeD6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+          <iframe
+            width="680"
+            height="380"
+            src="https://www.youtube.com/embed/lhOsEAoeD6s"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
         <div class="hashtag">
           <a href="#">#TheRelaxingEnd</a>
           <a href="#">#LenovoLegion</a>
           <a href="#">#Intel</a>
         </div>
-        <h2 class="title">Lenovo Legion 7i Unboxing - A Beast 16" Gaming Laptop! (i7-11800H + RTX 3080)</h2>
+        <h2 class="title">
+          Lenovo Legion 7i Unboxing - A Beast 16" Gaming Laptop! (i7-11800H +
+          RTX 3080)
+        </h2>
         <div class="menu-container">
           <span class="views">2,084,071</span>
           <a href="#" class="thumb-up-btn">
-            <img src="icons/thumb-up-icon.svg" alt="Thumb Up">
+            <img src="icons/thumb-up-icon.svg" alt="Thumb Up" />
             53K
           </a>
           <a href="#" class="thumb-down-btn">
-            <img src="icons/thumb-down-icon.svg" alt="Thumb Down">
+            <img src="icons/thumb-down-icon.svg" alt="Thumb Down" />
             DISLIKE
           </a>
           <a href="#" class="share-btn">
-            <img src="icons/share-icon.svg" alt="Share">
+            <img src="icons/share-icon.svg" alt="Share" />
             SHARE
           </a>
           <a href="#" class="download-btn">
-            <img src="icons/download-icon.svg" alt="Download">
+            <img src="icons/download-icon.svg" alt="Download" />
             DOWNLOAD
           </a>
           <a href="#" class="clip-btn">
-            <img src="icons/clip-icon.svg" alt="Clip">
+            <img src="icons/clip-icon.svg" alt="Clip" />
             CLIP
           </a>
           <a href="#" class="save-btn">
-            <img src="icons/save-icon.svg" alt="Save">
+            <img src="icons/save-icon.svg" alt="Save" />
             SAVE
           </a>
           <a href="#" class="more-btn">
-            <img src="icons/more-icon.svg" alt="More">
+            <img src="icons/more-icon.svg" alt="More" />
           </a>
         </div>
       </div>
-      <div class="categories-section">
+      <div class="categories-container">
+        <div class="category-section">
+          <button class="category active">All</button>
+          <button class="category">From your search</button>
+          <button class="category">Computer keyboard</button>
+          <button class="category">Unboxing</button>
+          <button class="next-btn">
+            <img src="icons/chevron-icon.svg">
+          </button>
+        </div>
       </div>
       <div class="videos-section"></div>
     </div>
