@@ -169,20 +169,20 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.profile-info > .img-container {
+.profile-info > .img-container-description {
   display: flex;
   align-items: center;
 }
 
-.profile-info > .img-container > img {
-  height: 64px;
-  width: 64px;
+.profile-info > .img-container-description > img {
+  height: 54px;
+  width: 54px;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .channel-info {
-  margin-left: -325px;
+  margin-left: -350px;
 }
 
 .channel-info > p {
@@ -191,23 +191,24 @@
   font-size: 12px;
 }
 
-.channel-name {
+.channel-name-description {
   cursor: pointer;
   position: absolute;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   margin-top: -9px;
+  display: flex;
 }
 
-.channel-name > img {
-  margin-left: 7px;
+.channel-name-description > img {
+  padding: 23px 5px;
   height: 12px;
-  width: 12px;
 }
 
 .subscribed-info {
   display: flex;
   align-items: center;
+  margin-right: 15px;
 }
 
 .subscribe-btn {
@@ -223,12 +224,117 @@
 
 .subscribed-info > img {
   height: 24px;
+  cursor: pointer;
 }
 
 .line {
   margin: 15px 15px 23px 0px;
   background: #ddd;
   height: 1px;
+}
+
+.description-content {
+  margin-left: 60px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+}
+
+.description-content > p > a, .description-content > .show-true > p > a{
+  text-decoration: none;
+  color: #285cec;
+}
+
+.wide-line {
+  background: #ddd;
+  height: 6px;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.video-category-and-game {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+.gta-box, .category-box {
+  display: flex;
+  background: #f7f7f7;
+  height: 100px;
+  width: 280px;
+  cursor: pointer;
+}
+
+.gta-box > .img-container > img {
+  height: 100px;
+  width: 73px;
+}
+
+.gta-box > .details-container > h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.gta-box > .details-container > p {
+  color: #555;
+  margin-top: -10px;
+}
+
+.gta-box > .details-container > span {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+  margin-top: -10px;
+}
+
+.gta-box > .details-container > span > img {
+  margin-left: 5px;
+  height: 25px;
+}
+
+.category-box > .img-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.category-box > .img-container > img{
+  height: 50%;
+  width: 54px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.category-box > .details-container > h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.category-box > .details-container > span {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+  margin-top: -10px;
+}
+
+.category-box > .details-container > span > img {
+  margin-left: 5px;
+  height: 25px;
+}
+
+.description-content > button {
+  background: #fff;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
 }
 
 /* CATEGORIES SECTION  */
@@ -301,7 +407,7 @@
 
 .videos-section {
   grid-area: 2 / 4 / 6 / 6;
-  margin-top: -50px;
+  margin-top: -200px;
   width: 75%;
   height: 700px;
   font-family: 'Poppins', sans-serif;
@@ -347,24 +453,24 @@
 }
 
 .channel-name {
-  margin-top: -5;
+  margin-top: -7px;
   display: flex;
   align-items: center;
 }
 
 .channel-name > p {
   font-size: 12px;
-  color: #666;
+  color: #555;
 }
 
 .channel-name > img {
   margin-left: 4px;
-  color: #666;
+  color: #555;
   height: 14px;
 }
 
 .views-date {
-  margin-top: -15px;
+  margin-top: -23px;
   display: flex;
   align-items: center;
 }
@@ -372,7 +478,7 @@
 .views-date > p {
   font-size: 12px;
   margin-right: 7px;
-  color: #666;
+  color: #555;
 }
 
 .views-date > img {
