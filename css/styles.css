@@ -203,6 +203,7 @@
 .channel-name-description > img {
   padding: 23px 5px;
   height: 12px;
+  
 }
 
 .subscribed-info {
@@ -568,18 +569,30 @@
   font-size: 14px;
   cursor: pointer;
   height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .write-comment > .buttons > .cancel-btn {
   color: #444;
-  padding: 15px;
+  padding: 18px 20px;
   margin-right: 10px;
 }
 
 .write-comment > .buttons > .comment-btn {
   background: #f5f5f5;
-  padding: 15px;
+  padding: 18px 20px;
   font-weight: bold;
   color: #999;
   letter-spacing: .7px;
+}
+
+.material-symbols-outlined {
+  color: #285cec;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
