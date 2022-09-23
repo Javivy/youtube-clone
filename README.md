@@ -47,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design by [Youtube](https://www.youtube.com/embed/lhOsEAoeD6s)
+- Original design by [Youtube](https://www.youtube.com/watch?v=lhOsEAoeD6s)
 
 ## Acknowledgments
 
